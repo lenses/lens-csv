@@ -4,8 +4,9 @@
   "keywords": "lenses, polymer, web-components",
   "main": "lens-input-csv.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.5",
-    "core-input": "polymer/core-input#~0.5.5",
+    "polymer": "Polymer/polymer",
+    "iron-input": "PolymerElements/iron-input",
+    "iron-icons": "PolymerElements/iron-icons",
     "d3": "latest"
   }
 }

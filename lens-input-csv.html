@@ -141,7 +141,7 @@ CSV Data loader component to load and parse online CSV files. If the API returns
     _setOutput: function (data) {
       var self = this;
       self.output = data;
-      self.fire('lens-output-changed', self);
+      self.fire('lens-output-changed', self.output);
     }
   });
 </script><script src="../d3/d3.min.js"></script>
